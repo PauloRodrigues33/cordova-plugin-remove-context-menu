@@ -1,21 +1,13 @@
 package com.prodrigues.cordovacontextbuttons;
 
 import android.app.Activity;
-import android.app.Application;
-import android.content.Context;
-import android.content.Intent;
 import android.view.ContextMenu;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-
 import com.medgrupo.medsoft.pro.R;
 
 import org.apache.cordova.CallbackContext;
-import org.apache.cordova.CordovaActivity;
 import org.apache.cordova.CordovaInterface;
-import org.apache.cordova.CordovaInterfaceImpl;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
