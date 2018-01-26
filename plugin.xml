@@ -12,6 +12,6 @@
         <feature name="cordovacontextbuttons">
             <param name="android-package" value="com.prodrigues.cordovacontextbuttons.cordovacontextbuttons" />
         </feature>
-        <source-file src="src/android/cordovacontextbuttons.java" target-dir="src/com/prodrigues/cordovacontextbuttons" />
+        <source-file src="src/android/src/com/prodrigues/cordovacontextbuttons.java" target-dir="src/com/prodrigues/cordovacontextbuttons" />
     </platform>
 </plugin>
