@@ -1,12 +1,12 @@
 var cordovacontextbuttons = {
-    removeAllButtons = function () {
+    removeAllButtons : function () {
         cordova.exec(function (success) {
 
         }, function (fail) {
 
         }, "cordovacontextbuttons", "removebuttons");
     },
-    setShareButtonVisible = function (visible) {
+    setShareButtonVisible : function (visible) {
         cordova.exec(function (success) {
             console.log("Share button disabled");
         }, function (fail) {
