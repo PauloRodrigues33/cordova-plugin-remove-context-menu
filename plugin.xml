@@ -9,6 +9,6 @@
         <clobbers target="contextmenu.buttons" />
     </js-module>
     <platform name="android">
-        <source-file src="src/android/cordovacontextbuttons.java" target-dir="com/prodrigues/cordovacontextbuttons" />
+        <source-file src="src/android/cordovacontextbuttons.java" target-dir="src/com/prodrigues/cordovacontextbuttons" />
     </platform> 
 </plugin>
