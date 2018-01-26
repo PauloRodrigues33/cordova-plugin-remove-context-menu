@@ -6,7 +6,7 @@
     <license>Apache 2.0</license>
     <keywords>cordova,context,menu,android,add,remove</keywords>
     <js-module src="www/cordovacontextbuttons.js" name="cordovacontextbuttons">
-        <clobbers target="contextmenu.buttons" />
+        <clobbers target="contextmenu" />
     </js-module>
     <platform name="android">
         <feature name="cordovacontextbuttons">
