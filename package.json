@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-context-menu-buttons",
+  "version": "0.0.1",
+  "description": "Add/Remove native context menu buttons from Android",
+  "cordova": {
+    "id": "cordova-plugin-context-menu-buttons",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloRodrigues33/cordova-plugin-remove-context-menu.git"
+  },
+  "keywords": [
+    "cordova",
+    "context",
+    "menu",
+    "android",
+    "add",
+    "remove",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Paulo Rodrigues",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/PauloRodrigues33/cordova-plugin-remove-context-menu/issues"
+  },
+  "homepage": "https://github.com/PauloRodrigues33/cordova-plugin-remove-context-menu#readme"
+}

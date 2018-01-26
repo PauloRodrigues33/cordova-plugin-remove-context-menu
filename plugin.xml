@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-context-menu-buttons" version="0.0.1">
+    <name>Cordova Plugin Context Menu Buttons</name>
+    <description>Add/Remove native context menu buttons from Android</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,context,menu,android,add,remove</keywords>
+    <js-module src="www/cordovacontextbuttons.js" name="cordovacontextbuttons">
+        <clobbers target="contextmenu.buttons" />
+    </js-module>
+    <platform name="android">
+        <source-file src="src/android/cordovacontextbuttons.java" target-dir="src/cordovacontextbuttons" />
+    </platform>
+</plugin>
