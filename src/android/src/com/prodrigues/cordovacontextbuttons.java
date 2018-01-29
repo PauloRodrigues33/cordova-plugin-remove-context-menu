@@ -13,7 +13,7 @@ import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class cordovacontextbuttons extends CordovaPlugin {
+public class Cordovacontextbuttons extends CordovaPlugin {
 
   Activity activity;
   Menu _customMenu;
@@ -38,7 +38,7 @@ public class cordovacontextbuttons extends CordovaPlugin {
         if (status) {
           callbackContext.success("Share button disabled");
         } else {
-          callbackContext.error("Share button enabled");
+          callbackContext.error("Share button enabled - OR ERROR");
         }
         callbackContext.success();
         return true;

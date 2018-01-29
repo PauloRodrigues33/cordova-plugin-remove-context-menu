@@ -4,7 +4,7 @@ var cordovacontextbuttons = {
 
         }, function (fail) {
 
-        }, "cordovacontextbuttons", "removebuttons");
+        }, "Cordovacontextbuttons", "removebuttons");
     },
     setShareButtonVisible : function (visible) {
         cordova.exec(function (success) {
@@ -12,7 +12,7 @@ var cordovacontextbuttons = {
         }, function (fail) {
             console.log("Share button FAIL");
             console.log(fail);            
-        }, "cordovacontextbuttons", "disableShareButton", [visible]);
+        }, "Cordovacontextbuttons", "disableShareButton", [visible]);
     }
 }
 

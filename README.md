@@ -1,1 +1,1 @@
-# cordova-plugin-remove-context-menu
+# cordova-plugin-context-menu-buttons
