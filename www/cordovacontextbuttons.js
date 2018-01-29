@@ -8,9 +8,10 @@ var cordovacontextbuttons = {
     },
     setShareButtonVisible : function (visible) {
         cordova.exec(function (success) {
-            console.log("Share button disabled");
+            console.log("Share button toggled");
         }, function (fail) {
-            console.log("Share button enabled");
+            console.log("Share button FAIL");
+            console.log(fail);            
         }, "cordovacontextbuttons", "disableShareButton", [visible]);
     }
 }
