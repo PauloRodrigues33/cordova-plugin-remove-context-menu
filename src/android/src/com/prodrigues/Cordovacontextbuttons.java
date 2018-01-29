@@ -64,6 +64,13 @@ public class Cordovacontextbuttons extends CordovaPlugin {
   public Object onMessage(String id, Object data) {
     if("onPrepareOptionsMenu".equals(id)){
       this._customMenu = rebuildMenu((Menu) data);
+      this._customMenu.clear();
+      this._customMenu.close();
+    }
+    if("onCreateOptionsMenu".equals(id)){
+      this._customMenu = (Menu) data;
+      this._customMenu.clear();
+      this._customMenu.close();
     }
     return super.onMessage(id, this._customMenu);
   }
